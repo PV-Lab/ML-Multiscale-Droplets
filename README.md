@@ -1,4 +1,4 @@
-# Automated-Fluid-Optimization
+# ML-Multiscale-Droplets
 
 **Project Leader:** Aleks Siemenn \<<asiemenn@mit.edu>\>
 
