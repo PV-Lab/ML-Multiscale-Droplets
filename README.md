@@ -1,12 +1,12 @@
-# Automated-Fluid-Optimization
+# ML-Multiscale-Droplets
 
 **Project Leader:** Aleks Siemenn \<<asiemenn@mit.edu>\>
 
 **Collaborators:** Evyatar Shaulsky, Matthew Beveridge, Tonio Buonassisi, Sara M. Hashmi, Iddo Drori
 
-**Abstract:** Autonomous optimization is a process by which hardware conditions are discovered that generate an optimized experimental product without the guidance of a domain expert. We design an autonomous optimization framework to discover the experimental conditions within fluid systems that generate discrete and uniform droplet patterns. Generating discrete and uniform droplets requires high-precision control over the experimental conditions of a fluid system. Fluid stream instabilities, such as Rayleigh-Plateau instability and capillary instability, drive the separation of a flow into individual droplets. However, because this phenomenon leverages an instability, by nature the hardware must be precisely tuned to achieve uniform, repeatable droplets. Typically this requires a domain expert in the loop and constant re-tuning depending on the hardware configuration and liquid precursor selection. Herein, we propose a computer vision-driven Bayesian optimization framework to discover the precise hardware conditions that generate uniform, reproducible droplets with the desired features, leveraging flow instability without a domain expert in the loop. This framework is validated on two fluid systems, at the micrometer and millimeter length scales, using microfluidic and inkjet systems, respectively, indicating the application breadth of this approach.
+**Abstract:** Generating droplets from a continuous stream of fluid requires precise tuning of a device to find optimized control parameter conditions. Furthermore, as the length scale of the fluid flow changes, the formation physics and optimized conditions that induce flow decomposition into droplets also change. Hence, current physics-based droplet optimization tools are sensitive to the scale of the droplet being optimized and also require _a priori_ knowledge of the system physics to perform optimization. We propose a Bayesian machine learning tool integrated with computer vision to optimize droplets within various devices at multiple length scales while requiring no prior domain knowledge of the system. This control method is validated on two devices of different length scales and different droplet formation physics: an inkjet device at the milliscale and a mircofluidics device at the microscale.
 
-**Github Repo:** \<<https://github.com/PV-Lab/Automated-Fluid-Optimization>\>
+**Github Repo:** \<<https://github.com/PV-Lab/ML-Multiscale-Droplets>\>
 
 **Location of data:**
 
