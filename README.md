@@ -1,6 +1,6 @@
 # ML-Multiscale-Droplets
 
-**Project Leader:** Aleks Siemenn \<<asiemenn@mit.edu>\>
+**Project Leader:** Alexander (Aleks) E. Siemenn \<<asiemenn@mit.edu>\>
 
 **Collaborators:** Evyatar Shaulsky, Matthew Beveridge, Tonio Buonassisi, Sara M. Hashmi, Iddo Drori
 
