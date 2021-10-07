@@ -20,8 +20,17 @@
 
 ## Explanation of code within GitHub Repo:
 
-### [1] Automated_BO.ipynb
-Runs an automated Bayesian optimization procedure. Takes input conditions, computes an objective value score via image processing and computer vision, and then outputs new, optima conditions based on the selected decision policy.
+### [1] utilization.ipynb
+Python notebook that utilizes all image analysis, computer vision, and Bayesian optimization code to compute the new predicted optimal control parameter values. Run this code using the directions notebook on your own data or the externally available data.
 
-### [2] Plot_Figures.ipynb
-Runs all figure plotting for the inkjet and microfluidics systems used in this study using data from OSF.IO.
+### [2] crop.py
+Reads in the droplet images, crops them, and rotates them.
+
+### [3] segmentation.py
+Runs watershed segmentation on the droplets images to segmented and index them apart from the background pixels.
+
+### [4] loss.py
+Computes the yield and geometric losses of the droplet image. Specify your own loss functions here, if you wish.
+
+### [5] bo.py
+Runs Bayesian optimization on the processed and labeled droplet data. New predicted condtions will be output and can be saved to your local computer as a csv.
