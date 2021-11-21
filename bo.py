@@ -27,7 +27,9 @@ def BO_optimizer(data, batch_size, param_path, save):
 
     Inputs:
     data          := adjusted parameter csv file (M by N+4) where N is the number of parameters and
-                     M are the images with the computed total losses
+                     M are the images with the computed total losses. Parameter values must be normalized;
+                     the user may select whatever parameters they wish to use to tune to optimize droplets.
+                     Losses are computed using the computer vision-based loss score in loss.py
     batch_size    := desired output batch size B for the suggested next locations
     save          := True or False value; saves predicted parameters for B samples as csv at the specified "param_path"
 
