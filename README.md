@@ -1,6 +1,6 @@
 # ML-Multiscale-Droplets
 
-**Project Leader:** Aleks Siemenn \<<asiemenn@mit.edu>\>
+**Project Leader:** Alexander (Aleks) E. Siemenn \<<asiemenn@mit.edu>\>
 
 **Collaborators:** Evyatar Shaulsky, Matthew Beveridge, Tonio Buonassisi, Sara M. Hashmi, Iddo Drori
 
@@ -33,4 +33,4 @@ Runs watershed segmentation on the droplets images to segmented and index them a
 Computes the yield and geometric losses of the droplet image. Specify your own loss functions here, if you wish.
 
 ### [5] bo.py
-Runs Bayesian optimization on the processed and labeled droplet data. New predicted condtions will be output and can be saved to your local computer as a csv.
+Runs Bayesian optimization on the processed and labeled droplet data. The input variable "data" should contain the set x &#8712; X<sup>(N)</sup>, where x are the normalized values of N device control parameters, as well as the computer vision-compute loss scores. The N device control parameters are arbitrary, such that they can be specified by the user based on the user's specific device hardware. New predicted condtions will be output and can be saved to your local computer as a csv.
