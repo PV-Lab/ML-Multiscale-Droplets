@@ -89,7 +89,7 @@ def watershed_segment(image, double_watershed, large_elements_pixels, pixel_diff
     img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
     img = cv2.medianBlur(img, 5)
     _, img_bin = cv2.threshold(img, 0, 255,
-                               # threshold image using Otsu's binarization # https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html
+                               # threshold image using Otsu's binarization # https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html
                                cv2.THRESH_OTSU)
     img_bin = cv2.morphologyEx(img_bin, cv2.MORPH_OPEN,
                                np.ones((4, 4), dtype=int))
