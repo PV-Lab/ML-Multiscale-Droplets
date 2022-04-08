@@ -2,9 +2,9 @@
 
 **Project Leader:** Alexander (Aleks) E. Siemenn \<<asiemenn@mit.edu>\>
 
-When using the code for any scientific publications or conferences, please cite our research article as:
+**##When using the code for any scientific publications or conferences, please cite our research article as:
 
-Alexander E. Siemenn, Evyatar Shaulsky, Matthew Beveridge, Tonio Buonassisi, Sara M. Hashmi, and Iddo Drori, "A Machine Learning and Computer Vision Approach to Rapidly Optimize Multiscale Droplet Generation", ACS Applied Materials & Interfaces 2022 14 (3), 4668-4679. DOI: 10.1021/acsami.1c19276
+##Alexander E. Siemenn, Evyatar Shaulsky, Matthew Beveridge, Tonio Buonassisi, Sara M. Hashmi, and Iddo Drori, "A Machine Learning and Computer Vision Approach to Rapidly Optimize Multiscale Droplet Generation", ACS Applied Materials & Interfaces 2022 14 (3), 4668-4679. DOI: 10.1021/acsami.1c19276**
 
 **Collaborators:** Evyatar Shaulsky, Matthew Beveridge, Tonio Buonassisi, Sara M. Hashmi, Iddo Drori
 
